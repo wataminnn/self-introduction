@@ -441,11 +441,27 @@ ul a:hover{
 }
 
 .first-text{
-    margin-left: 5%;
+    margin-left: 17%;
 }
 
 .first-work p{
     margin-bottom: 100px;
+}
+
+.front{
+    position: absolute;
+    z-index: 2;
+
+}
+
+.back{
+    position: relative;
+    left: 40%;
+    top: 25%;
+}
+
+.back:hover{
+    z-index: 3;
 }
 
 .second-work{
@@ -453,6 +469,16 @@ ul a:hover{
     margin-left: 12.6%;
     margin-right: 12.6%;
     margin-top: 200px;
+}
+
+.original-site{
+    overflow-y: scroll;
+    height: 310px;
+    width: 100%;
+}
+
+.original-site img{
+    width: 100%;
 }
 
 .second-text{
@@ -469,6 +495,10 @@ ul a:hover{
     letter-spacing: 1.8px;
     margin-top: 10px;
     margin-bottom: 60px;
+}
+
+.second-text a:hover{
+    color: #cdc7d9;
 }
 
 .color-palette{
@@ -496,8 +526,8 @@ ul a:hover{
 
 footer{
     background-color: #D5EBF2;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 footer p{
