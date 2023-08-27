@@ -25,9 +25,63 @@ p{
     letter-spacing: 0.15em;
 }
 
-header{
-    background-color: #D5EBF2;
-    height: 10px;
+.header{
+	position: fixed;
+	height: 70px;
+	width:100%;
+    z-index: 999;
+	display: flex;
+    justify-content: space-around;
+	align-items: center;
+	background: #fff;
+	color: #79C4E0;
+    opacity: 0.8;
+	text-align: center;
+	padding: 20px;
+}
+
+.header img{
+    width: 80px;
+}
+
+.header ul{
+    display: flex;
+
+}
+
+.header li{
+    padding-right: 30px;
+}
+
+#header.UpMove{
+	position: fixed;
+	width:100%;
+	animation: UpAnime 0.5s forwards;
+}
+@keyframes DownAnime{
+  from {
+  	opacity: 0;
+	transform: translateY(-100px);
+  }
+  to {
+  	opacity: 1;
+	transform: translateY(0);
+  }
+}
+#header.DownMove{
+	position: fixed;
+	width:100%;
+	animation: DownAnime 0.5s forwards;
+}
+@keyframes DownAnime{
+  from {
+    opacity: 1;
+	transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+	transform: translateY(-100px);
+  }
 }
 
 .firstview{
@@ -258,11 +312,84 @@ ul a{
 
 .dogs-text{
     margin-top: 250px;
+    margin-bottom: 80px;
     text-align: center;
 }
 
 .dogs-text p{
     margin-top: 63px;
+}
+
+.dog-name{
+    margin-top: 30px;
+}
+
+.dog-photos{
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+.dog-photos h2{
+    color: #333;
+    font-family: Zen Maru Gothic;
+    font-size: 40px;
+    margin-bottom: 34px;
+    position: absolute;
+    left: 40%;
+    z-index: 2;
+}
+
+.dog-photos p{
+    color: #333;
+    font-family: Zen Maru Gothic;
+    font-size: 24px;
+    margin-top: 70px;
+}
+
+.ryoma-contents{
+    position: absolute;
+    width: 24%;
+    text-align: center;
+}
+
+.line{
+    position: relative;
+    width: 92px;
+    height: 25px;
+    background: #EDE78A;
+    opacity: 0.5;
+    left: 38%;
+    top: 35px;
+}
+
+.ryoma-photos{
+    display:flex;
+    overflow-x:scroll;
+}
+
+.ryoma-photos img{
+    height: 500px;
+    padding:2%;
+    border-radius: 20px;
+}
+
+.yuzu-contents{
+    position: relative;
+    left: 58%;
+    width: 40%;
+    text-align: center;
+}
+
+.yuzu-photos{
+    display:flex;
+    overflow-x:scroll;
+}
+
+.yuzu-photos img{
+    height: 500px;
+    padding:2%;
+    border-radius: 20px;
 }
 
 .works{
