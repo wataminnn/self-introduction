@@ -53,6 +53,10 @@ p{
     padding-right: 30px;
 }
 
+.header:hover{
+    color: #A0C536;
+}
+
 #header.UpMove{
 	position: fixed;
 	width:100%;
@@ -123,6 +127,11 @@ ul a{
     font-weight: 400;
     line-height: 200%;
     letter-spacing: 7.04px;
+}
+
+
+ul a:hover{
+    color: #A0C536;
 }
 
 .main-img{
@@ -278,7 +287,7 @@ ul a{
 }
 
 .hobby{
-    margin-top: 350px;
+    margin-top: 450px;
     margin-right: 15%;
     margin-left: 15%;
     display: flex;
@@ -308,6 +317,10 @@ ul a{
     font-family: Zen Maru Gothic;
     color: #79C4E0;
     font-size: 24px;
+}
+
+.photo:hover{
+    color: #0071A1;
 }
 
 .dogs-text{
@@ -406,7 +419,7 @@ ul a{
 }
 
 .works h2{
-    color: #D3DEC0;
+    color: #A0C536;
     font-family: Zen Maru Gothic;
     font-size: 32px;
     font-weight: 400;
@@ -462,6 +475,24 @@ ul a{
     width: 60%;
 }
 
+.last-sns{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.last-sns img{
+    width: 40px;
+    height: 40px;
+}
+
+.instagram{
+    padding-right: 8px;
+}
+
+.facebook{
+    padding-left: 8px;
+}
 
 footer{
     background-color: #D5EBF2;
@@ -472,4 +503,24 @@ footer{
 footer p{
     color: #fff;
     text-align: center;
+}
+
+.hobby-page{
+    background-color: #F5F3C8;
+}
+
+.hobby-page h1{
+    letter-spacing: 5px;
+    position: absolute;
+    padding-left: 20px;
+}
+
+.yoko{
+    overflow-x:scroll;
+    position: relative;
+    margin: 35px 35px 35px 300px;
+}
+
+.yoko img{
+    height: 860px;
 }
